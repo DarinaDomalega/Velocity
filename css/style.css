@@ -61,6 +61,37 @@ font-size: px;
 line-height: 1.8;
 }
 
+.hide{
+    display: none !important;
+}
+
+.title {
+margin-bottom: 17px;
+font-size: 30px;
+line-height: 1.2;
+text-transform: uppercase;
+color: #676770;
+
+}
+
+.subtitle {
+font-size:17px ;
+line-height: 1.2;
+text-transform: uppercase;
+letter-spacing: 3px;
+color: #8e8e9c;
+
+}
+
+.title-wrapper {
+margin-bottom: 60px;
+}
+
+.common-section {
+text-align: center;
+padding: 80px 0;
+}
+
 /* Header */
 
 .header {
@@ -70,7 +101,8 @@ line-height: 1.8;
     background-color: #fff;
     top: 0;
     left: 0; 
-    z-index: 100;  
+    z-index: 100; 
+    box-shadow: 0px 0px  8px rgba(0, 0, 0, 0.1); 
 
 }
 
@@ -215,3 +247,111 @@ transition: border-color 0.1s , background-color 0.1s;
     border-color: rgba(0, 0, 0, 0.5);
 }
 
+
+/*About */
+
+
+.about {
+
+}
+
+
+.container {
+
+}
+
+
+.about .cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about .card {
+    background:#fff;
+    width: 300px;
+    border: 1px solid #DCBEF7;
+    border-radius: 5px;
+    padding: 35px 15px 20px;
+
+}
+
+.about .card img {
+    width: 94px ;
+    height: 94px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.about .card h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    letter-spacing:7px ;
+    line-height: 1.5 ;
+    text-transform: uppercase;
+    color: #676770;
+}
+
+/*Services */
+
+
+.services {
+
+}
+
+.common-section--dark {
+    background-color: #192024;
+}
+
+.common-section--dark * {
+    color: #fff;
+}
+
+.common-section--dark .subtitle{
+    color: #E8E8E8; 
+}
+.container {
+
+}
+
+.title-wrapper {
+
+}
+
+.title {
+
+}
+
+.subtitle {
+
+}
+
+.services .cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services .card {
+width: 45%;
+}
+
+.services .link {
+    margin-top: 15px;
+
+}
+
+.services .card h4{
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+
+
+}
+
+.services .card img {
+    width: 430px ;
+    height: 285px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
