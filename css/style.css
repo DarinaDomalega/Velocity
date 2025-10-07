@@ -355,3 +355,50 @@ width: 45%;
     object-fit: contain;
     margin-bottom: 20px;
 }
+
+/* Tabs -section */
+
+.tab-section {
+
+}
+
+
+.tabs {
+
+}
+
+.tabs__nav {
+    margin-bottom: 50px;
+}
+
+.tabs__nav button {
+    padding: 1px 30px;
+    font-size:16px ;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #92A0AD;
+    border-radius: 4px;
+}
+
+.tabs__nav button.active {
+    background-color: #2E80B6;
+
+}
+
+.tabs__nav button + button {
+
+    margin-left: 15px;
+}
+
+.active {
+
+}
+
+.tabs_item {
+
+}
+
+.tabs__desc {
+
+}
